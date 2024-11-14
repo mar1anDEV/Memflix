@@ -20,17 +20,17 @@ Section{
     backdrop-filter: blur(3px);
     height: 100%;
     width: 100%;
-    z-index: 999; /* Ensures it's on top of other content */
+    z-index: 999; 
     
 }
 .ContainerPanel {
-    position: absolute; /* Use absolute positioning for centering */
+    position: absolute; 
     left: 50%;
-    top: 45%; /* Also center vertically */
-    transform: translate(-50%, -50%); /* Correct translate syntax to offset by half the width and height */
+    top: 45%; 
+    transform: translate(-50%, -50%); 
     height: auto;
     width: 400px;
-    z-index: 1000; /* Ensures it stays on top of other elements */
+    z-index: 1000; 
     margin: 0 auto;
     
 }
