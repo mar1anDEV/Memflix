@@ -33,10 +33,10 @@
                                         video.addEventListener('loadedmetadata', function() {
                                                 var tracks = video.textTracks;
 
-                                                // Automatically show the "Deutsch" subtitle track
+                                                
                                                 for (var i = 0; i < tracks.length; i++) {
                                                     if (tracks[i].label === "Deutsch") {
-                                                        tracks[i].mode = "showing"; // Show the German subtitles
+                                                        tracks[i].mode = "showing"; 
                                                     }
                                                 }
                                             });
@@ -78,7 +78,7 @@
                                 <script>
                                     document.getElementById('btnRomana').addEventListener('click', redirectToRomana);
                                                                 function redirectToRomana() {
-                                window.location.href = 'main.html?lang=romana'; // Redirect to index.html with Romana
+                                window.location.href = 'main.html?lang=romana'; 
                             }
                                 </script>
                             </button>
