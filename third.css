@@ -18,7 +18,7 @@
     display: flex;
     padding: 20px;
     background-color: #222121;
-    align-items: center; /* Vertically centers content */
+    align-items: center; 
 }
 
 .video-movie-body-section-image {
@@ -48,7 +48,7 @@
 
 .video-movie-body-section-text-sub-title h2,
 .video-movie-body-section-text-sub-title-second h2 {
-    margin: 0; /* Remove default margins for h2 tags */
+    margin: 0; 
     font-size: 20px;
     color: #ffc107;
 }
@@ -71,7 +71,7 @@
     gap: 5px;
 }
 .video-movie-body-section-text-sub-title-description p {
-    margin: 0; /* Remove default margins on the paragraph */
+    margin: 0; 
     padding: 5px 0px;
     color: #837e7e;
 }
@@ -126,9 +126,9 @@
     color: #837e7e;
 }
 video::cue {
-            background: transparent;  /* Remove subtitle background */
-            color: white;             /* Set subtitle text color to white */
-            font-family: 'Helvetica Neue', Arial, sans-serif;  /* Netflix-like font */
-            font-size: 18px;          /* Adjust the font size */
-            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.75); /* Netflix-style shadow */
+            background: transparent;  
+            color: white;             
+            font-family: 'Helvetica Neue', Arial, sans-serif; 
+            font-size: 18px;          
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.75); 
         }
