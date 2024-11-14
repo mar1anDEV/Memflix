@@ -87,14 +87,14 @@
     background-color: #f5a700;
     border-radius: 50%;
     display: flex;
-    justify-content: center; /* Horizontally center the icon */
+    justify-content: center;
     align-items: center;
     cursor: pointer;
     z-index: 9999;
 }
 .PlayButtonWatch:hover {
-    background-color: #f5a700; /* Brighten up the button */
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3); /* Add shadow */
+    background-color: #f5a700; 
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3); 
 }
 .play_button{
     font-size: 25px;
@@ -102,21 +102,21 @@
 .RatingMovieCard {
     display: flex;
     gap: 5px;
-    align-items: center; /* Aligns items (icon and text) vertically */
-    justify-content: center; /* Centers content horizontally */
+    align-items: center; 
+    justify-content: center; 
 }
 
 .RatingMovieCard span {
-    display: inline-flex; /* Makes the span behave like a flex container */
-    justify-content: center; /* Centers content horizontally */
-    align-items: center; /* Centers content vertically */
-    margin: 0; /* Ensure there's no extra margin */
-    text-align: center; /* Center the text inside */
+    display: inline-flex; 
+    justify-content: center; 
+    align-items: center; 
+    margin: 0; 
+    text-align: center;
 }
 
 .RatingMovieCard p {
-    margin: 0; /* Remove default margin from the paragraph */
-    font-size: 16px; /* Adjust font size if necessary */
+    margin: 0; 
+    font-size: 16px; 
     color: #f5a700;
 }
 .YearCard {
@@ -124,10 +124,10 @@
 }
 
 .YearCard p {
-    text-align: right; /* Aligns text to the right */
+    text-align: right;
     color: #f5a700;
-    margin: 0; /* Remove any default margin */
-    padding: 0; /* Optional: ensure no extra padding */
+    margin: 0; 
+    padding: 0; 
 }
 .CardContainerInfoYear-Rating{
     display: flex;
