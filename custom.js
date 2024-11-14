@@ -19,23 +19,23 @@ var video = document.getElementById('my-video');
 
 
 
-    const VideoBanner = document.getElementById('my-video'); // Ensure you have this video element in your HTML
+    const VideoBanner = document.getElementById('my-video'); 
     const muteButton = document.getElementById('muteButton');
-    let isMuted = true; // Start muted by default
+    let isMuted = true; 
 
-    // Initialize video muted state
+    
     VideoBanner.muted = isMuted;
 
-    // Mute/unmute functionality on button click
+    
     muteButton.addEventListener('click', () => {
-        isMuted = !isMuted; // Toggle mute state
-        VideoBanner.muted = isMuted; // Mute or unmute the video
+        isMuted = !isMuted; 
+        VideoBanner.muted = isMuted; 
 
-        // Update button icon based on the mute state
+        
         if (isMuted) {
-            muteButton.innerHTML = '<i class="fas fa-volume-mute"></i>'; // Muted icon
+            muteButton.innerHTML = '<i class="fas fa-volume-mute"></i>';
         } else {
-            muteButton.innerHTML = '<i class="fas fa-volume-up"></i>'; // X mark icon for unmuted
+            muteButton.innerHTML = '<i class="fas fa-volume-up"></i>';
         }
     });
    
